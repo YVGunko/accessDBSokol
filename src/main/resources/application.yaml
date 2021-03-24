@@ -1,0 +1,18 @@
+spring:
+    profiles: MacOs
+name: MacOs-YAML
+environment: MacOs
+url: 
+    - ////Users//yg//Downloads//Sokolov.accdb
+font:
+- ////Users//yg//Downloads//FreeSans//FreeSans.ttf
+ 
+---
+spring:
+    profiles: Windows
+name: Windows-YAML
+environment: Windows
+url: 
+    - c:\Access\Sokolov.accdb
+font:
+- c:\Access\FreeSans\FreeSans.ttf

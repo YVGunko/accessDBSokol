@@ -1,0 +1,206 @@
+2020-03-28 17:27:41.083  INFO 8189 --- [main] c.e.accsSkl.AccessDbSokolApplication     : Starting AccessDbSokolApplication on Mac-mini-YG.local with PID 8189 (/Users/yg/Documents/workspace-sts-3.9.1.RELEASE/accessDBSokol/target/classes started by yg in /Users/yg/Documents/workspace-sts-3.9.1.RELEASE/accessDBSokol)
+2020-03-28 17:27:41.088  INFO 8189 --- [main] c.e.accsSkl.AccessDbSokolApplication     : No active profile set, falling back to default profiles: default
+2020-03-28 17:27:41.146  INFO 8189 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6302bbb1: startup date [Sat Mar 28 17:27:41 MSK 2020]; root of context hierarchy
+2020-03-28 17:27:42.401  INFO 8189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4242 (http)
+2020-03-28 17:27:42.424  INFO 8189 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-28 17:27:42.424  INFO 8189 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-03-28 17:27:42.427  INFO 8189 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-28 17:27:42.505  INFO 8189 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-28 17:27:42.506  INFO 8189 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1360 ms
+2020-03-28 17:27:42.540  INFO 8189 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-28 17:27:42.543  INFO 8189 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-28 17:27:42.797  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getCards],methods=[GET]}" onto public java.util.List<com.example.accsSkl.OrderTraceDetail.OrderTraceDetail> com.example.accsSkl.Controller.getCards(java.lang.Long) throws java.lang.RuntimeException
+2020-03-28 17:27:42.798  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/checkConnection],methods=[GET]}" onto public java.lang.String com.example.accsSkl.Controller.checkConnection()
+2020-03-28 17:27:42.798  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllClient],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Client.Client> com.example.accsSkl.Controller.getAllClients() throws java.lang.RuntimeException
+2020-03-28 17:27:42.798  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneClient],methods=[GET]}" onto public com.example.accsSkl.Client.Client com.example.accsSkl.Controller.getOneClient(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.799  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllContragent],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Contragent.Contragent> com.example.accsSkl.Controller.getAllContragent() throws java.lang.RuntimeException
+2020-03-28 17:27:42.799  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneContragent],methods=[GET]}" onto public com.example.accsSkl.Contragent.Contragent com.example.accsSkl.Controller.getOneContragent(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.799  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllModel],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Model.Model> com.example.accsSkl.Controller.getAllModel() throws java.lang.RuntimeException
+2020-03-28 17:27:42.800  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneModel],methods=[GET]}" onto public com.example.accsSkl.Model.Model com.example.accsSkl.Controller.getOneModel(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.800  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllBrand],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Brand.Brand> com.example.accsSkl.Controller.getAllBrand() throws java.lang.RuntimeException
+2020-03-28 17:27:42.800  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneBrand],methods=[GET]}" onto public com.example.accsSkl.Brand.Brand com.example.accsSkl.Controller.getOneBrand(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.801  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllSeason],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Season.Season> com.example.accsSkl.Controller.getAllSeason() throws java.lang.RuntimeException
+2020-03-28 17:27:42.801  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneSeason],methods=[GET]}" onto public com.example.accsSkl.Season.Season com.example.accsSkl.Controller.getOneSeason(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.801  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllSizing],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Sizing.Sizing> com.example.accsSkl.Controller.getAllSizing() throws java.lang.RuntimeException
+2020-03-28 17:27:42.801  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneSizing],methods=[GET]}" onto public com.example.accsSkl.Sizing.Sizing com.example.accsSkl.Controller.getOneSizing(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.802  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllOrderTrace],methods=[GET]}" onto public java.util.List<com.example.accsSkl.OrderTrace.OrderTrace> com.example.accsSkl.Controller.getAllOrderTrace() throws java.lang.RuntimeException
+2020-03-28 17:27:42.802  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneOrderTrace],methods=[GET]}" onto public com.example.accsSkl.OrderTrace.OrderTrace com.example.accsSkl.Controller.getOneOrderTrace(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.802  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getLaunchOrderTrace],methods=[GET]}" onto public java.util.List<com.example.accsSkl.OrderTrace.OrderTrace> com.example.accsSkl.Controller.getLaunchOrderTrace(long) throws java.lang.RuntimeException
+2020-03-28 17:27:42.802  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/insertOneOrderTrace],methods=[POST]}" onto public java.lang.Long com.example.accsSkl.Controller.insertOneOrderTrace(com.example.accsSkl.OrderTrace.OrderTrace) throws java.lang.Exception
+2020-03-28 17:27:42.803  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteOneOrderTrace],methods=[POST]}" onto public int com.example.accsSkl.Controller.insertOneOrderTrace(java.lang.Long) throws java.lang.Exception
+2020-03-28 17:27:42.803  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateOneOrderTrace],methods=[POST]}" onto public int com.example.accsSkl.Controller.upateOneOrderTrace(com.example.accsSkl.OrderTrace.OrderTrace) throws java.lang.Exception
+2020-03-28 17:27:42.803  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllRowsOfDoc],methods=[GET]}" onto public java.util.List<com.example.accsSkl.OrderTraceDetail.OrderTraceDetail> com.example.accsSkl.Controller.getAllRowsOfDoc(java.lang.Long) throws java.lang.RuntimeException
+2020-03-28 17:27:42.804  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllRowsAndDoc],methods=[GET]}" onto public java.util.List<com.example.accsSkl.OrderTraceDetail.OrderTraceDetail> com.example.accsSkl.Controller.getAllRowsAndDoc(java.lang.Long) throws java.lang.RuntimeException
+2020-03-28 17:27:42.804  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getOneOrderTraceDetail],methods=[GET]}" onto public com.example.accsSkl.OrderTraceDetail.OrderTraceDetail com.example.accsSkl.Controller.getOneOrderTraceDetail(java.lang.String) throws java.lang.RuntimeException
+2020-03-28 17:27:42.804  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/OrderTraceWithDetails],methods=[GET]}" onto public com.example.accsSkl.OrderTraceWithDetails.OrderTraceWithDetails com.example.accsSkl.Controller.getOrderTraceWithDetails(java.lang.Long) throws java.lang.Exception
+2020-03-28 17:27:42.805  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pdfreport],methods=[GET],params=[date],produces=[application/pdf]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.InputStreamResource> com.example.accsSkl.Controller.stickerReport(java.lang.Long) throws java.io.IOException
+2020-03-28 17:27:42.805  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getStickerGreaterThan],methods=[GET]}" onto public java.util.List<com.example.accsSkl.Sticker.Sticker> com.example.accsSkl.Controller.findStickerGreaterThan(java.lang.Long) throws java.lang.RuntimeException
+2020-03-28 17:27:42.805  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/setBox],methods=[POST]}" onto public java.util.List<com.example.accsSkl.Box.Box> com.example.accsSkl.Controller.insertBox(java.util.List<com.example.accsSkl.Box.Box>) throws java.lang.Exception
+2020-03-28 17:27:42.807  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.accsSkl.ViewController.get() throws java.text.ParseException
+2020-03-28 17:27:42.807  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[POST],params=[action=filter]}" onto public org.springframework.web.servlet.ModelAndView com.example.accsSkl.ViewController.foobarPost(com.example.accsSkl.Command) throws java.text.ParseException
+2020-03-28 17:27:42.807  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[POST],params=[action=print]}" onto public java.lang.Object com.example.accsSkl.ViewController.pdfGet(javax.servlet.http.HttpServletRequest,com.example.accsSkl.Command,javax.servlet.http.HttpServletResponse) throws java.io.IOException,java.text.ParseException
+2020-03-28 17:27:42.807  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.accsSkl.WebController.goHome()
+2020-03-28 17:27:42.811  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-28 17:27:42.812  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-28 17:27:42.836  INFO 8189 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/view] onto handler '/view'
+2020-03-28 17:27:42.886  INFO 8189 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6302bbb1: startup date [Sat Mar 28 17:27:41 MSK 2020]; root of context hierarchy
+2020-03-28 17:27:43.219  WARN 8189 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-03-28 17:27:43.322  INFO 8189 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-28 17:27:43.324  INFO 8189 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-03-28 17:27:43.329  INFO 8189 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-03-28 17:27:43.365  INFO 8189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4242 (http) with context path ''
+2020-03-28 17:27:43.369  INFO 8189 --- [main] c.e.accsSkl.AccessDbSokolApplication     : Started AccessDbSokolApplication in 2.686 seconds (JVM running for 3.529)
+2020-03-28 17:27:57.210  INFO 8189 --- [http-nio-4242-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-28 17:27:57.210  INFO 8189 --- [http-nio-4242-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-28 17:27:57.234  INFO 8189 --- [http-nio-4242-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2020-03-28 17:27:57.271  INFO 8189 --- [http-nio-4242-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-28 17:27:57.286  INFO 8189 --- [http-nio-4242-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-28 17:28:17.931 ERROR 8189 --- [http-nio-4242-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-4242-exec-4] Exception processing template "k": An error happened during template parsing (template: "class path resource [templates/k.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/k.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354) [thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187) [thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "k" - line 40, col 23)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	... 40 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "k" - line 40, col 23)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:305) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:252) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:226) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	... 55 common frames omitted
+
+2020-03-28 17:28:17.939 ERROR 8189 --- [http-nio-4242-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/k.html]")] with root cause
+
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:305) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:252) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:226) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187) ~[thymeleaf-spring5-3.0.9.RELEASE.jar:3.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2020-03-28 17:40:55.941  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-28 17:40:55.945  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6302bbb1: startup date [Sat Mar 28 17:27:41 MSK 2020]; root of context hierarchy
+2020-03-28 17:40:55.954  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-03-28 17:40:55.955  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2020-03-28 17:40:55.958  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-28 17:40:55.966  INFO 8189 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
