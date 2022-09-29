@@ -61,8 +61,8 @@ public class AccessDbSokolApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-        //System.out.println(env.getProperty("asDBUrl"));
-        //System.out.println(env.getProperty("asFont"));
+        System.out.println(env.getProperty("asDBUrl"));
+        System.out.println(env.getProperty("asFont"));
         //System.out.println(env.getProperty("asHeadFont"));
         //Config.FONT = env.getProperty("asFont");
         //Config.HEADFONT = env.getProperty("asHeadFont");

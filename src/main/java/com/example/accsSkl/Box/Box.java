@@ -37,6 +37,7 @@ r.name as receiver, m.name as model,  b.name as brand, g.name as sizing, g.quant
     private Long sticker;
     private Long id ; //
     
+	
     public static final String TABLE = "Box";
 
     public static final String Column_quantity = "quantity";
@@ -52,6 +53,26 @@ r.name as receiver, m.name as model,  b.name as brand, g.name as sizing, g.quant
     public static final String Column_orderTrace = "orderTrace";
     public static final String COLUMN_sentToMasterDate = "sentToMasterDate";
 
+    public Box(int quantity, Long model_id, Long sizing_id, Long numberOfOrder,
+    		String dateOfTrace, Long receiver_id, Long client_id,
+               Long brand_id, Long season_id, Long sender_id, Long parent_id, 
+               Long sentToMasterDate, Long sticker, Long id) {
+        this.quantity = quantity;
+        this.model_id = model_id;
+        this.sizing_id = sizing_id;
+        this.numberOfOrder = numberOfOrder;
+        this.dateOfTrace = dateOfTrace;
+        this.receiver_id = receiver_id;
+        this.sender_id = sender_id;
+        this.client_id = client_id;
+        this.brand_id = brand_id;
+        this.season_id = season_id;
+        this.parent_id = parent_id;
+        this.sentToMasterDate = sentToMasterDate;
+        this.sticker = sticker;
+        this.id = id;
+    }
+    
     public Box(int quantity, String model, Long model_id, String sizing, Long sizing_id, Long numberOfOrder,
     		String dateOfTrace, String receiver, Long receiver_id, String client, Long client_id,
                String brand, Long brand_id, String season, Long season_id, String sender, Long sender_id, Long parent_id, 

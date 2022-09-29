@@ -56,5 +56,11 @@ public interface BoxRepository {
     /*public Box(int quantity, String model, Long model_id, String sizing, Long sizing_id, Long numberOfOrder,
     		Long dateOfTrace, String receiver, Long receiver_id, String client, Long client_id,
                String brand, Long brand_id, String season, Long season_id, String sender, Long sender_id, Long parent_id, Long sentToMasterDate)*/
+
+    int createBoxTable ();
+    int insert(Box box);
+    List<Box> findAll();
+    int createDB();
+    Box findOne(long id);
  
 }
